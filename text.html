@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - John Doe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">JD</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-image">
+                    <img src="https://picsum.photos/seed/profile123/300/300.jpg" alt="Profile Picture">
+                </div>
+                <div class="home-text">
+                    <h1>John Doe</h1>
+                    <p class="bio">
+                        Passionate web developer with a love for creating beautiful, functional websites. 
+                        I specialize in front-end development and enjoy bringing creative ideas to life 
+                        through clean code and thoughtful design.
+                    </p>
+                    <a href="#projects" class="cta-button">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://picsum.photos/seed/project1/400/250.jpg" alt="E-commerce Website">
+                    <h3>E-commerce Website</h3>
+                    <p>
+                        A modern e-commerce platform built with responsive design principles. 
+                        Features include product filtering, shopping cart functionality, 
+                        and secure checkout process.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/seed/project2/400/250.jpg" alt="Task Management App">
+                    <h3>Task Management App</h3>
+                    <p>
+                        A productivity application that helps teams organize and track their work. 
+                        Includes drag-and-drop functionality, due date reminders, and team collaboration features.
+                    </p>
+                </div>
+                <div class="project-card">
+                    <img src="https://picsum.photos/seed/project3/400/250.jpg" alt="Weather Dashboard">
+                    <h3>Weather Dashboard</h3>
+                    <p>
+                        An interactive weather application that provides real-time weather data 
+                        and forecasts. Features location-based weather updates and beautiful 
+                        data visualizations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities.</p>
+                    <div class="contact-details">
+                        <p><strong>Email:</strong> john.doe@example.com</p>
+                        <p><strong>Location:</strong> San Francisco, CA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
